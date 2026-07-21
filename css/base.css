@@ -1,0 +1,67 @@
+/* ==========================================
+   Museum Pomodoro - Base Styles
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+
+    width:100%;
+    height:100%;
+
+    overflow:hidden;
+
+    font-family:Georgia, "Times New Roman", serif;
+
+    background:#151515;
+
+    color:#eee;
+
+}
+
+body{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    font:inherit;
+
+}
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+:root{
+
+    --wall:#cbb89b;
+
+    --wall-dark:#b59c79;
+
+    --wood:#6b4b2a;
+
+    --gold:#b58b33;
+
+    --shadow:rgba(0,0,0,.45);
+
+    --light:rgba(255,240,200,.35);
+
+}
