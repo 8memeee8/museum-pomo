@@ -1,0 +1,115 @@
+/* ==========================================
+   MUSEUM LAYOUT
+========================================== */
+
+#museum{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* WALL */
+
+#wall{
+    position:relative;
+    flex:7;
+    background:
+        linear-gradient(
+            to bottom,
+            #d7c7aa 0%,
+            #ccb692 100%
+        );
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+/* FRAME */
+
+#frame{
+
+    width:min(70vw,900px);
+
+    aspect-ratio:4/3;
+
+    padding:18px;
+
+    background:#9b7833;
+
+    border:10px solid #c8a34a;
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.45);
+
+}
+
+#painting{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+/* PLAQUE */
+
+#plaque{
+
+    margin-top:26px;
+
+    padding:14px 28px;
+
+    background:#b18d43;
+
+    color:#2a2418;
+
+    border-radius:4px;
+
+    text-align:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.25);
+
+}
+
+#title{
+
+    font-size:1.15rem;
+
+    font-weight:bold;
+
+}
+
+#artist{
+
+    margin-top:6px;
+
+    font-size:.95rem;
+
+}
+
+/* FLOOR */
+
+#floor{
+
+    position:relative;
+
+    flex:3;
+
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #6a4a2c 0px,
+            #6a4a2c 90px,
+            #755232 90px,
+            #755232 94px
+        );
+
+    overflow:hidden;
+
+}
